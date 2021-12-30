@@ -18,6 +18,7 @@
 
 ;;; Code:
 ;;
+(prelude-require-packages '(jq-mode jq-format restclient))
 (require 'jq-mode)
 
 ;; --- jq support
